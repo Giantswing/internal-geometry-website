@@ -1,0 +1,165 @@
+body{
+  background-image: url('IMG/background.png');
+  background-size: cover;
+  background-color: #cccccc;
+}
+
+.mymusic audio{
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+  width: 50vw;
+  margin: 1vw;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+
+  border-left-width: 8px;
+  border-left-style: solid;
+  border-left-color: #ff6600;
+  transition: 0.1s;
+  border-radius: 5px;
+}
+
+.mymusic audio:hover{
+  transform: scale(1.05,1.05);
+  transition: 0.3s;
+  border-color: white;
+}
+
+#ytvideo{
+  align-content: center;
+  width: 60vw;
+  height: 35vh;
+  display: block;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  border-left-width: 5px;
+  border-style: solid;
+  border-left-color: #ff6600;
+  border-radius: 15px;
+}
+
+.barraimagenes{
+  padding-top:10vh;
+  height:100%;
+  width:34.7%;
+  position: fixed;
+  right:3%;
+  top:0;
+  background-color: rgba(0,0,0,0);
+}
+
+.image2{
+  object-fit: cover; /*COMPORTAMIENTO DE ESCALA*/
+  object-position: center;
+  margin: 0.1vw;
+  width: 35vw;
+  height: 12vw;
+  box-shadow: 0 4px 12px 0 rgba(0,0,0,0.8), 0 6px 20px 0 rgba(0,0,0,0.8);
+  transition: 0.3s;
+}
+
+.barra {
+  border-right: double;
+  border-width: 6px;
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  top: 0;
+  left: 0;
+  background-color: #e6e6e6;
+  padding-top: 5%;
+  text-align: right;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bold;
+
+  /*ESTO LO SAQUÉ DE UNA PÁGINA QUE TE CREA GRADIENTES PARA LOS FONDOS! AQUÍ EL ENLACE http://www.colorzilla.com/gradient-editor/ */
+  background: #8d93a0; /* Old browsers */
+  background: -moz-linear-gradient(left, #8d93a0 0%, #636a7c 55%, #636a7c 95%, #3f4251 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #8d93a0 0%,#636a7c 55%,#636a7c 95%,#3f4251 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #8d93a0 0%,#636a7c 55%,#636a7c 95%,#3f4251 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d93a0', endColorstr='#3f4251',GradientType=1 ); /* IE6-9 */
+
+}
+
+.barra a {
+    position: fixed;
+    right: 80%;
+    padding: 8px 32px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(0,0,0,0.5);
+    display: block;
+    transition: width 1s;
+    transition: font-size 0.5s;
+}
+
+.barra a:hover {
+    color: #ff9933;
+    transition: 0.1s;
+    font-size: 29px;
+    transition: 0.3s;
+}
+
+#main {
+    transition: padding-left .5s;
+    margin-left: 20%;
+    margin-top:3%;
+    padding: 40px;
+    padding-right: 43%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#inicio {
+    color: white;
+    text-align: center;
+    transition: padding-left .5s;
+    margin-left: 20%;
+    margin-top:3%;
+    padding: 40px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#inicio h1{
+  text-shadow: 5px 5px 5px black;
+}
+
+#inicio p{
+  color: orange;
+}
+
+ #select{
+   color: #111111;
+   font-size: 29px;
+
+   background-color: white;
+   width: 20%;
+   transition: font-size 0.5s;
+ }
+
+.image {
+  background-color: #000;
+  z-index: -1;
+  border-radius: 20px;
+  object-fit: cover; /*COMPORTAMIENTO DE ESCALA*/
+  object-position: center;
+  margin: 0.4vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  width: 20vw;
+  height: 20vw;
+  box-shadow: 0 4px 12px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  position: block;
+}
+.image:hover{
+  z-index: 10;
+  border-radius: 2px;
+  background-color: #000;
+  object-fit: scale-down; /*COMPORTAMIENTO DE ESCALA*/
+  object-position: center;
+  margin: 1vw;
+  box-shadow: 0 4px 20px 0 #888888, 0 6px 25px 0 #888888;
+  transition: 0.5s;
+  transform: scale(1.8,1.8);
+
+}
