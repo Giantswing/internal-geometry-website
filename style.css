@@ -37,6 +37,19 @@ body{
   border-radius: 15px;
 }
 
+#fbvideo{
+  margin: 25px;
+  align-content: center;
+  width: 560px;
+  height: 315px;
+  display: block;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  border-left-width: 5px;
+  border-style: solid;
+  border-left-color: #ff6600;
+  border-radius: 15px;
+}
+
 .barraimagenes{
   padding-top:10vh;
   height:100%;
